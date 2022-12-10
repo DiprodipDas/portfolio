@@ -11,8 +11,12 @@ const Contact = () => {
         //     formURL="https://form.jotform.com/223433783396060"
         //     </JotFormEmbed>
         //   </div>
-        <div className='h-96 mt-12 mb-96 '>
+        <div>
+            <h1 className='text-4xl text-center font-bold mt-12'>Contact Me</h1>
+            <hr className='mb-12 mt-6' />
+            <div className='h-96 mt-12 mb-96 '>
             <iframe title="my form" className='w-full h-[728px]' src={URL}></iframe>
+        </div>
         </div>
     );
 };
