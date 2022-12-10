@@ -3,7 +3,7 @@ import footerImg from '../../../assets/dipro.png'
 
 const Footer = () => {
     return (
-        <footer className="footer p-10 mt-12 bg-neutral text-neutral-content">
+        <footer className="footer p-10 mt-96 bg-neutral text-neutral-content">
             <div>
                 <img className='w-24' src={footerImg} alt="" />
                 <p>Diprodip Das<br />MERN Stack Developer</p>

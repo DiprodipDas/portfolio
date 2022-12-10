@@ -26,7 +26,7 @@ const Projects = () => {
         }
     ]
     return (
-        <div>
+        <div className='mb-6 '>
             <h1 className='text-4xl text-center font-bold mt-12'>My Project</h1>
             <hr className='mb-12 mt-6' />
             <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
