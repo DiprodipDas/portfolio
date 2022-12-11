@@ -7,19 +7,19 @@ import SingleProject from './SingleProject';
 const Projects = () => {
     const allProjects = [
         {
-            id: 1,
+            _id: 1,
             name: 'PC Mama',
             description: 'This is a usable Computer re-selling website.',
             img: pc
         },
         {
-            id: 2,
+            _id: 2,
             name: 'Dr Shetty Chamber',
             description: 'This is a Doctor service review website',
             img: doctor
         },
         {
-            id: 3,
+            _id: 3,
             name: 'EduSmart BD',
             description: 'This is a Usable Computer Re-Selling Website.',
             img: edu
@@ -32,7 +32,7 @@ const Projects = () => {
             <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
             {
                 allProjects.map(project => <SingleProject
-                     key={project.id}
+                     key={project._id}
                      project={project}
                 ></SingleProject>)
             }
